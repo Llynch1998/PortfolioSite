@@ -1,0 +1,19 @@
+#generatorButton{
+    background: url('../assets/buttonUp.png') no-repeat bottom left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    width: 260px;
+    height: 200px;
+    outline: none;
+    border: none;
+}
+#generatorButton:active{
+    background: url('../assets/buttonDown.png') no-repeat bottom left;
+    background-size: contain;
+    cursor: pointer;
+    display: inline-block;
+    width: 250px;
+    height: 200px;
+    
+}
