@@ -7,6 +7,8 @@
     height: 200px;
     outline: none;
     border: none;
+    margin-top: 275px;
+    margin-left: 70vw;
 }
 #generatorButton:active{
     background: url('../assets/buttonDown.png') no-repeat bottom left;
@@ -35,14 +37,13 @@ body{
     text-align: center;
 }
 
-#buttonBackground{
-
-}
-
 .slash1{
+    display: grid;
     background: url('../assets/Background1.png') no-repeat bottom left;
+    background-size: 100vw 2900px;
     height: 2671px;
     width: 100vw;
+    padding: 50px;
 }
 
 .slash{
@@ -59,4 +60,10 @@ body{
 
 #genText{
     background-color: #FFFFFF;
+}
+
+.screenshot{
+    width: 60vw;
+    height: 80vh;
+    background-color: #424242;
 }
