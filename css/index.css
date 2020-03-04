@@ -22,11 +22,19 @@
 
 body{
     background-color: #212121;
-    font-family: 'Oswald';font-size: 64px;
+    font-family: 'Oswald';font-size: 32px;
     letter-spacing: 2px;
     color: #FFFFFF;
+    padding: 0;
+    margin: 0;
 }
 
+#headerBox{
+    margin-left: 250px;
+}
+#title{
+    margin-left:50px;
+}
 #genBox{
     
     color: #000000;
@@ -38,7 +46,7 @@ body{
 }
 
 .slash1{
-    display: grid;
+    display: inline-block;
     background: url('../assets/Background1.png') no-repeat bottom left;
     background-size: 100vw 2900px;
     height: 2671px;
@@ -60,10 +68,23 @@ body{
 
 #genText{
     background-color: #FFFFFF;
+    margin-left: 25px;
+
 }
 
 .screenshot{
-    width: 60vw;
+    
+    margin-top: 440px;
+    width: 1280px;
+    height: 80vh;
+    background-color: #424242;
+}
+
+.description{
+    margin-left: 50px;
+    margin-top: 480px;
+    
+    width: 530px;
     height: 80vh;
     background-color: #424242;
 }
