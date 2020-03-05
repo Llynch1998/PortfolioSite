@@ -43,10 +43,11 @@ body{
     margin-left: 250px;
 }
 #title{
+    margin-top: 50px;
     margin-left:50px;
 }
 #genBox{
-    
+    margin-top: 50px;
     color: #000000;
     width: 500px;
     padding: 0;
@@ -61,7 +62,7 @@ body{
     background-size: 100vw 2900px;
     height: 2671px;
     width: 95vw;
-    padding: 50px 50px 0 75px;
+    padding: 50px 50px 0 50px;
 }
 
 .slash{
@@ -69,7 +70,7 @@ body{
     background-size: 100vw 2900px;
     height: 2671px;
     width: 95vw;
-    padding: 0 50px 0 75px;
+    padding: 50px 50px 0 50px;
 }
 
 #headerBox{
@@ -79,6 +80,7 @@ body{
 }
 
 #genText{
+    margin-top: 50px;
     background-color: #FFFFFF;
     margin-left: 25px;
 
@@ -86,16 +88,33 @@ body{
 
 .screenshot{
     display: inline-block;
+    
     margin-top: 440px;
     width: 64vw;
     height: 36vw;
+    
     background-color: #424242;
+}
+
+#tremor{
+    background: url('../assets/tremorApp.png') no-repeat top left;
+    background-size: contain;
+}
+
+#audioVis{
+    background: url('../assets/AudioVisProj.png') no-repeat top left;
+    background-size: contain;
+}
+
+#endure{
+    background: url('../assets/endure.png') no-repeat top left;
+    background-size: contain;
 }
 
 .description{
     display: inline-block;
-    margin-left: 50px;
-    margin-top: 480px;
+    margin-left: 25px;
+    /*margin-top: 480px;*/
     
     width: 25vw;
     height: 30vw;
