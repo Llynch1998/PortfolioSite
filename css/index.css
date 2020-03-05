@@ -87,8 +87,8 @@ body{
 }
 
 .screenshot{
+    white-space: nowrap;
     display: inline-block;
-    
     margin-top: 440px;
     width: 64vw;
     height: 36vw;
@@ -112,12 +112,11 @@ body{
 }
 
 .description{
+    
     display: inline-block;
     margin-left: 25px;
-    /*margin-top: 480px;*/
-    
     width: 25vw;
-    height: 30vw;
+    height: 35vw;
     background-color: #424242;
 }
 
@@ -128,10 +127,50 @@ body{
     margin: 0;
 }
 
+.descText{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.github{
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#warnignText{
+    visibility: hidden;
+}
+#mobileWarning{
+    visibility: hidden;
+}
 /*1100px width for media query*/
 /*16:9 ASPECT ratio for screen*/
-@media only screen and (max-width: 1100px) {
-    body {
-      
+@media only screen and (max-width: 1450px) {
+    
+    body{
+        font-size: 20px;
     }
   }
+
+@media only screen and (max-width: 1100px){
+    #desktop{
+        visibility: hidden;
+    }
+    #mobile{
+        visibility: visible;
+    }
+    #mobileWarning{
+        visibility: visible;
+        width: 95vw;
+        height: 90vh;
+        background-color: #424242;
+    }
+    #warnignText{
+        visibility: visible;
+        margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    }
+}
