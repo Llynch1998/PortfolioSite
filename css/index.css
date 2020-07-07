@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 #generatorButton{
     background: url('../assets/buttonUp.png') no-repeat bottom left;
@@ -110,6 +111,10 @@ body{
     background: url('../assets/endure.png') no-repeat top left;
     background-size: contain;
 }
+#sanction{
+    background: url('../assets/caution.png') no-repeat top left;
+    background-size: contain;
+}
 
 .description{
     
@@ -156,19 +161,22 @@ body{
         min-width: 1450px;
     }
   }
-/*
+
 @media only screen and (max-width: 1100px){
     #desktop{
         visibility: hidden;
     }
     #mobile{
         visibility: visible;
+        text-align: center;
+        padding: 5px;
     }
     #mobileWarning{
         visibility: visible;
         width: 95vw;
         height: 90vh;
         background-color: #424242;
+        padding-top: 25px;
     }
     #warnignText{
         visibility: visible;
@@ -177,4 +185,4 @@ body{
     margin-right: 25px;
     }
 }
-*/
+
